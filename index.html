@@ -1,0 +1,26 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Dev Toolbox</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧰 Mini Dev Toolbox</h1>
+  </header>
+
+  <div class="tool-container">
+    <button onclick="loadTool('cheatsheet.html')">📖 Cheatsheet</button>
+    <button onclick="loadTool('quotes.html')">💬 Quotes</button>
+    <button onclick="loadTool('sites.html')">🔗 Useful Sites</button>
+    <button onclick="loadTool('password.html')">🔐 Password Generator</button>
+  </div>
+
+  <iframe id="tool-frame" src="" frameborder="0"></iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>
